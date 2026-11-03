@@ -1,0 +1,37 @@
+﻿# Secrets et variables d'environnement
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dépendances
+node_modules/
+vendor/
+
+# Générations et compilations
+dist/
+build/
+.next/
+out/
+
+# Environnements locaux
+.venv/
+venv/
+__pycache__/
+.cache/
+
+# Journaux
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Données locales et exports sensibles
+local-data/
+private-data/
+exports/
